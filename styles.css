@@ -1,0 +1,64 @@
+h1 {
+	color: #369;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 250%;
+  }
+  body {
+	  margin: 0;
+	  padding: 0;
+   }
+  
+   #background 
+  { 
+	   left: 0px; 
+	   top: 0px; 
+	   position: relative; 
+	   margin-left: auto; 
+	   margin-right: auto; 
+	   height: 600px; 
+	   overflow: hidden;
+	 z-index:0;
+	 background-color: #E0E0E0;
+	  } 
+   #Rectangle1 
+  { 
+	   left: 200px; 
+	   top: 75px; 
+	   position: absolute; 
+	   width: 800px;
+	   height: 565px;
+	 z-index:2;
+	 background-color: #FFFFFF;
+	 padding-top: 40px;
+	 padding-left: 40px;
+	 padding-right: 40px;
+  } 
+  
+   #Rectangle2 
+  { 
+	   left: 290px; 
+	   top: 173px; 
+	   position: absolute; 
+	   width: 610px;
+	   height: 57px;
+	 z-index:3;
+	
+	}
+	.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+	.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+  .navBardemoBasicUsage md-content .ext-content {
+	padding: 50px;
+	margin: 20px;
+	background-color: #FFF2E0; }
+  @media only screen and (max-device-width:750px) and
+  (orientation:landscape){
+  
+  }
